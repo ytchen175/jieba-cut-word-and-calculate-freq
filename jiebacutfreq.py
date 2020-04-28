@@ -1,7 +1,7 @@
 import jieba.posseg as pseg
 from openpyxl import load_workbook
 import xlsxwriter
-txt=open("new.txt",encoding="utf-8").read()
+txt=open("new.txt").read()
 words = pseg.cut(txt)
 items=[]
 
